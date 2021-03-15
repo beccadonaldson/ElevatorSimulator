@@ -1,0 +1,15 @@
+Project designed using JAX WS framework and integrated MongoDB NoSQL database.
+
+All model classes and ElevatorService.java are located in src/main/java/com/rebecca/elevatorSimulator.
+
+Test suite and all test cases are located in src/main/java/com/rebecca/elevatorSimulator/tests.
+
+Apache Tomcat v8.0 Server was used to run ElevatorService.java.
+
+The URI used to address resources is: http://localhost:8080/elevatorSimulator/webapi/elevatorservice
+
+Postman (an API client) was used to test API's so no need for UI. 
+
+All credentials used to access MongoDB are outlined in ElevatorService.java (lines 42 and 44)
+
+No test cases were created for model classes because they only had getters and setters which did not contain any complex logic.
